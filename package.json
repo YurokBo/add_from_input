@@ -1,0 +1,25 @@
+{
+  "name": "add_from_input",
+  "version": "1.0.0",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YurokBo/add_from_input.git"
+  },
+  "keywords": [
+    "yurokbo"
+  ],
+  "author": "Yuriy Bondaruyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YurokBo/add_from_input/issues"
+  },
+  "homepage": "https://github.com/YurokBo/add_from_input#readme",
+  "description": ""
+}
