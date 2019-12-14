@@ -7,7 +7,7 @@ document.addEventListener('click', e => {
         input = document.querySelector('.tasks__input');
 
     if ( e.target.classList.contains('tasks__add') ) {
-        let divTask = document.createElement('div'),
+        const divTask = document.createElement('div'),
             divTaskTitle = document.createElement('div'),
             aTaskRemove = document.createElement('a');
 
@@ -21,14 +21,14 @@ document.addEventListener('click', e => {
         aTaskRemove.href = '#';
 
         tasksList.append(divTask);
-        divTask.append(divTaskTitle);
-        divTaskTitle.append(aTaskRemove);
+        divTask.append(divTaskTitle, aTaskRemove);
+        input.value = '';
     }
 
     const close = e.target.closest('.task__remove');
 
     if(close) {
-        e.target.closest('.task__title').remove();
+        e.target.closest('.task').remove();
     }
 })
 

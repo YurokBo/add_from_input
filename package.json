@@ -5,8 +5,8 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "test",
-    "start": "node server.js"
+    "test": "test"
+
   },
   "repository": {
     "type": "git",
