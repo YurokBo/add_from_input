@@ -30,7 +30,7 @@ document.addEventListener('click', e => {
     if(close) {
         e.target.closest('.task').remove();
     }
-})
+});
 
 
 
